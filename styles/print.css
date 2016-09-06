@@ -1,0 +1,81 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	/* base font of 14 pixels - then use ems */
+	font-size:14px;	
+	color:#545454;
+	background-color: #15384C;
+}
+#container{
+	
+}
+header{
+	
+}
+h1{
+	font-size:2em;
+	margin:0;
+	font-weight:100;
+}
+h2{
+	font-size:1.75em;
+}
+h3{
+	font-size:1.5em;
+}
+h2, h3{
+	margin:0 0 1em 0;	
+}
+p{
+	margin:0 0 0.75em 0;
+}
+
+nav{
+	display:none;
+}
+footer{
+	font-size:0.8em;
+	padding: 10px 10px 10px 0;	
+}
+.button-style{
+	background-color: #cf4a41;
+	padding: 7px 20px;
+	display:inline-block;
+	margin-top: 20px;
+	text-decoration: none;
+	color:#ffffff;
+	border-radius: 5px;
+	box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+	transition: all 0.5s;
+}
+.button-style:hover{
+	background-color: #F2E96B;
+	color:#000;
+	transition: all ease-out 0.5s;
+
+/*	background-color: #BABF1F;
+	color:#000000;
+	box-shadow:1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+	position:relative;
+	top:3px;*/
+
+}
+
+.three-column {
+	padding: 0px 0px 15px 20px;
+}
+.three-column .box{
+	width:inherit;
+	float: none;
+	page-break-after: always;	
+}
+
+#printCopy{
+	display: block;
+}
+
+
+
+
